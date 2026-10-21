@@ -1,3 +1,56 @@
-# Godot 4+ specific ignores
+
+# ==============================
+# Godot
+# ==============================
+
 .godot/
-/android/
+.import/
+.mono/
+.nomedia
+
+*.translation
+*.tmp
+~*.dll
+
+# Local export configuration and credentials
+export.cfg
+export_credentials.cfg
+
+# ==============================
+# C# / .NET
+# ==============================
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+*.user
+*.suo
+*.userosscache
+*.rsuser
+*.pdb
+
+# ==============================
+# IDE
+# ==============================
+
+.vs/
+.idea/
+.vscode/
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Local and temporary files
+# ==============================
+
+*.log
+*.bak
+*.temp
